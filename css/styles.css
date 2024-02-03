@@ -119,14 +119,14 @@ img {
 
 .container-wide {
     padding: 0 100px;
-    margin: 0 auto;
+    /* margin: 0 auto; */
     max-width: 1240px;
     /* background-color: #fa7900; */
 }
 
 .container-narrow {
     padding: 0 176px;
-    margin: 0 auto;
+    /* margin: 0 auto; */
     max-width: 1088px;
     /* background-color: #fa7900; */
 }
@@ -429,11 +429,14 @@ img {
 
 .contacts__box {
     display: flex;
+    justify-content: center;
     gap: 32px;
 }
 
 .contacts__map {
     border-radius: 32px;
+    width: 600px;
+    height: 500px;
 }
 
 .contacts__form {
