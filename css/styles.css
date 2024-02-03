@@ -118,17 +118,17 @@ img {
 /* Container ------------------------------- */
 
 .container-wide {
-    padding: 0 100px;
-    /* margin: 0 auto; */
+    width: 100%;
     max-width: 1240px;
-    /* background-color: #fa7900; */
+    margin: 0 auto;
+    padding: 0 20px;
 }
 
 .container-narrow {
-    padding: 0 176px;
-    /* margin: 0 auto; */
-    max-width: 1088px;
-    /* background-color: #fa7900; */
+    width: 100%;
+    max-width: 1060px;
+    margin: 0 auto;
+    padding: 0 110px;
 }
 
 /* Section --------------------------------- */
@@ -162,7 +162,12 @@ img {
 /* Header --------------------------------- */
 
 .header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
     padding: 32px 0;
+    background: rgba(255, 255, 255, 0.25);
 
     border: 1px solid blue; /* Delete */
 }
@@ -221,11 +226,12 @@ img {
 /* Hero --------------------------------- */
 
 .hero {
-    padding-top: 16px;
+    padding-top: 130px;
     padding-bottom: 90px;
-    background: linear-gradient(89.38deg, #FFFFFF 30.62%, rgba(255, 255, 255, 0.850898) 41.31%, rgba(255, 255, 255, 0.193204) 58.65%, rgba(255, 255, 255, 0) 72.78%), url(../images/hero-background.png);
+    /* background: linear-gradient(89.38deg, #FFFFFF 30.62%, rgba(255, 255, 255, 0.850898) 41.31%, rgba(255, 255, 255, 0.193204) 58.65%, rgba(255, 255, 255, 0) 72.78%), url(../images/hero-background.png); */
+    background: url(../images/hero-bg.png);
     background-repeat: no-repeat;
-    background-position: right top;
+    background-position: right bottom;
     background-size: cover;
     /* background: linear-gradient(89.38deg, #FFFFFF 30.62%, rgba(255, 255, 255, 0.850898) 41.31%, rgba(255, 255, 255, 0.193204) 58.65%, rgba(255, 255, 255, 0) 72.78%); */
 
@@ -434,15 +440,17 @@ img {
 }
 
 .contacts__map {
+    display: block;
     border-radius: 32px;
-    width: 600px;
-    height: 500px;
+    width: calc((100% - 32px) / 2);
+    max-height: 500px;
 }
 
 .contacts__form {
     padding: 48px 56px;
     border-radius: 32px;
     background-color: var(--color-secondary-darkblue);
+    width: calc((100% - 32px) / 2);
 }
 
 .contacts__form-title {
@@ -491,7 +499,7 @@ img {
     border: 2px solid var(--color-primary-blue);
     background-color: var(--color-primary-blue);
     color: var(--color-primary-white);
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 600;
     line-height: 1.17;
     letter-spacing: 0em;
@@ -530,8 +538,8 @@ img {
     width: 247px;
     height: 152px;
     position: absolute;
-    right: 190px;
-    bottom: 0;
+    right: 24px;
+    bottom: -2px;
 }
 
 .footer__box {
