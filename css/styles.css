@@ -133,10 +133,6 @@ img {
 
 /* Section --------------------------------- */
 
-/* .section {
-    padding-bottom: 90px;
-} */
-
 .section__title {
     margin-bottom: 48px;
     font-family: 'Play', sans-serif;
@@ -169,7 +165,7 @@ img {
     padding: 32px 0;
     background: rgba(255, 255, 255, 0.25);
 
-    border: 1px solid blue; /* Delete */
+    border: 1px solid red; /* Delete */
 }
 
 .header__box {
@@ -228,15 +224,12 @@ img {
 .hero {
     padding-top: 130px;
     padding-bottom: 90px;
-    /* background: linear-gradient(89.38deg, #FFFFFF 30.62%, rgba(255, 255, 255, 0.850898) 41.31%, rgba(255, 255, 255, 0.193204) 58.65%, rgba(255, 255, 255, 0) 72.78%), url(../images/hero-background.png); */
     background: url(../images/hero-bg.png);
     background-repeat: no-repeat;
     background-position: right bottom;
     background-size: cover;
-    /* background: linear-gradient(89.38deg, #FFFFFF 30.62%, rgba(255, 255, 255, 0.850898) 41.31%, rgba(255, 255, 255, 0.193204) 58.65%, rgba(255, 255, 255, 0) 72.78%); */
 
-
-    border: 1px solid blue; /* Delete */
+    border: 1px solid red; /* Delete */
 }
 
 .hero__before-title {
@@ -287,12 +280,12 @@ img {
 
 .about {
     padding-bottom: 176px;
-    background: url(../images/background.png);
+    background: url(../images/about-bg.png);
     background-position: 0 650px;
     background-repeat: no-repeat;
     background-size: cover;
 
-    border: 1px solid blue; /* Delete */
+    border: 1px solid red; /* Delete */
 }
 
 .about__box {
@@ -329,10 +322,10 @@ img {
 
 .advantages {
     padding-bottom: 96px;
-    background: url(../images/background.png);
+    background: url(../images/about-bg.png);
     background-position: 0 -200px;
 
-    border: 1px solid blue; /* Delete */
+    border: 1px solid red; /* Delete */
 }
 
 .advantages__list {
@@ -363,7 +356,7 @@ img {
 .procedures {
     padding-bottom: 96px;
 
-    border: 1px solid blue; /* Delete */
+    border: 1px solid red; /* Delete */
 }
 
 .procedures__slider-box {
@@ -430,7 +423,7 @@ img {
 .contacts {
     padding-bottom: 96px;
 
-    border: 1px solid blue; /* Delete */
+    border: 1px solid red; /* Delete */
 }
 
 .contacts__box {
@@ -530,7 +523,7 @@ img {
     padding: 56px 0;
     background: url(../images/footer-bg.png), var(--color-primary-darkblue);
 
-    border: 1px solid blue; /* Delete */
+    border: 1px solid red; /* Delete */
 }
 
 .footer::after {
@@ -549,7 +542,6 @@ img {
 
 .footer__menu-box {
     display: flex;
-    /* flex-grow: 1; */
     flex-basis: calc( 100% / 2);
 }
 
@@ -583,7 +575,6 @@ img {
 
 .footer__address {
     display: flex;
-    /* flex-grow: 1; */
     flex-basis: calc( 100% / 2);
 }
 
